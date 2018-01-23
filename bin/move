@@ -18,3 +18,5 @@ input = gets.strip
 new_move = input_to_index(input)
 
 move(board, new_move)
+
+display_board(board)
