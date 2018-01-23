@@ -15,4 +15,6 @@ puts "Where would you like to move?"
 
 input = gets.strip
 
-input_to_index(input)
+new_move = input_to_index(input)
+
+move(board, new_move)
